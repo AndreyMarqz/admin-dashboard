@@ -24,14 +24,17 @@
 .container {
     display: grid;
     grid-template-columns: 300px 1fr;
+    grid-template-rows: 50px 1fr;
+    height: 100vh;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    order: -1;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
     background-color: var(--color1);
-    height: 100vh;
+    height: 100%;
 }
 
 .icon-content {
@@ -75,6 +78,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     padding: 0 20px 0 130px;
     align-items: center;
     border-bottom: 1px solid var(--color5);
@@ -119,3 +124,116 @@
     padding: 0 0 0 30px;
 }
 
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 20px 50px 0 50px;
+    overflow: auto;
+}
+
+.greeting-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--color4);
+    height: 100px;
+}
+
+.greeting-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.header-btn {
+    background-color: var(--color3);
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--color6);
+    border-style: none;
+}
+
+.greeting-icon-text {
+    display: flex;
+    gap: 20px;
+}
+
+.greeting-text {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.lower {
+    font-size: 0.6em;
+}
+
+.higher {
+    font-size: 0.8em;
+}
+
+.bigger {
+    height: 80px;
+    width: 80px;
+}
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.search-section h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.search-section p {
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.search-box {
+    display: flex;
+    width: 200px;
+    padding: 5px;
+    justify-content: end;
+    border: 2px solid var(--color4);
+    border-radius: 5px;
+}
+
+.search-and-icon {
+    display: flex;
+    gap: 30px;
+}
+
+.group-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.wider, .thiner {
+    display: flex;
+    font-weight: 500;
+    background-color: #bfc6c464;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color8);
+    gap: 8px;
+}
+
+.thiner {
+    width: 40px;
+}
+
+.group-section > p {
+    font-size: 0.9em;
+    opacity: 50%;
+}
+
+.filter-section {
+    gap: 10px;
+}

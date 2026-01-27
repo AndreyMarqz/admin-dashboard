@@ -127,16 +127,17 @@
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    padding: 20px 50px 0 50px;
+    padding: 20px 30px 0 40px;
     overflow: auto;
 }
 
 .greeting-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 1px solid var(--color4);
     height: 100px;
+    padding: 0 10px 20px 30px;
 }
 
 .greeting-btns {
@@ -176,11 +177,12 @@
     width: 80px;
 }
 
-.filter-section {
+.filter-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: auto;
+    margin: 20px 0 0 0;
 }
 
 .search-section h1 {
@@ -235,5 +237,38 @@
 }
 
 .filter-section {
+    display: flex;
     gap: 10px;
 }
+
+.boxes-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin: 30px 0 0 0;
+    gap: 15px;
+}
+
+.box {
+    background-color: #e3e3e3ae;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.box > p {
+    color: var(--color8);
+    font-size: 0.8em;
+}
+
+.task-box {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: var(--color6);
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 var(--color4);
+    flex-direction: column;
+    margin: 10px 5px 5px 5px;
+    padding: 8px;
+}
+

@@ -9,6 +9,11 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="icon-content">
+                <img src="./img/main-icon.png" alt="page-icon">
+                <p>Task Manager</p>
+            </div>
+            
             <div class="header-menus">
                 <div class="header-menu">
                     <p>Your work</p>
@@ -41,14 +46,6 @@
         </div>
             
         <div class="sidebar">
-            <div class="menu-content">
-                
-            </div>
-            <div class="icon-content">
-                <img src="./img/main-icon.png" alt="page-icon">
-                <p>Task Manager</p>
-            </div>
-
             <div class="menu-content">
                 <div class="sidebar-content">
                     <img src="./img/home-icon.svg" alt="home-icon">
@@ -150,7 +147,10 @@
             
             <div class="boxes-container">
                 <div class="to-do box">
-                    <p>TO DO</p>
+                    <div class="category-number">
+                        <p>TO DO</p>
+                        <p class="clearer">5</p>
+                    </div>
                     <div class="task-box">
                         <p class="title">Optimize experience for mobile web</p>
                         <div class="category-profile">
@@ -193,7 +193,10 @@
                 </div>
 
                 <div class="in-progress box">
-                    <p>IN PROGRESS</p>
+                    <div class="category-number">
+                        <p>IN PROGRESS</p>
+                        <p class="clearer">3</p>
+                    </div>
                     <div class="task-box">
                         <p class="title">Fast trip search</p>
                         <div class="category-profile">
@@ -220,7 +223,10 @@
                 </div>
 
                 <div class="in-review box">
-                    <p>IN REVIEW</p>
+                    <div class="category-number">
+                        <p>IN REVIEW</p>
+                        <p class="clearer">4</p>
+                    </div>
                     <div class="task-box">
                         <p class="title">Revise and streamline booking flow</p>
                         <div class="category-profile">
@@ -256,8 +262,13 @@
                 </div>
 
                 <div class="done box">
-                    <p>DONE</p>
-                    <img src="./img/done-icon.svg" alt="done-icon">
+                    <div class="align-done-text">
+                        <div class="category-number">
+                            <p>DONE</p>
+                            <img src="./img/done-icon.svg" alt="done-icon">
+                            <p class="clearer">2</p>
+                        </div>
+                    </div>
                     <div class="task-box">
                         <p class="title">High outage: Software bug fix - BG Web-store app crashing</p>
                         <div class="category-profile">

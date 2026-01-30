@@ -1,10 +1,11 @@
 # Admin Dashboard - Kanban Style
 
-![Project Screenshot]<img width="3439" height="1392" alt="print1" src="https://github.com/user-attachments/assets/793e93c1-b1be-4704-af44-af514ec969a5" />
-![Project Screenshot]<img width="1181" height="1392" alt="print2" src="https://github.com/user-attachments/assets/6419e242-32e7-4675-b5e2-54ca4db2c20b" />
-![Project Screenshot]<img width="1915" height="1018" alt="print3" src="https://github.com/user-attachments/assets/498d71ad-8859-4d96-8977-8d383492d86f" />
+<img width="1915" height="1018" alt="print3" src="https://github.com/user-attachments/assets/498d71ad-8859-4d96-8977-8d383492d86f" />
+<img width="3439" height="1392" alt="print1" src="https://github.com/user-attachments/assets/793e93c1-b1be-4704-af44-af514ec969a5" />
+<img width="1181" height="1392" alt="print2" src="https://github.com/user-attachments/assets/6419e242-32e7-4675-b5e2-54ca4db2c20b" />
 
-> 🚀 **[View Live Demo](https://andreymarqz.github.io/admin-dashboard/)**
+
+> 🚀 **[View Live Demo Here](https://andreymarqz.github.io/admin-dashboard/)**
 
 A minimalist, static admin dashboard designed for task management, inspired by the layouts of Kanban boards and Jira. This project was developed as a focused exercise to master **CSS Grid** layouts.
 

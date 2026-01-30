@@ -32,9 +32,3 @@ The primary objective of this project was to practice and implement advanced **C
 
 * **Not Responsive:** This project was built to practice specific grid alignments on desktop views (1440px width recommended) and is not currently optimized for mobile devices.
 * **Static UI:** As there is no JavaScript, the "Add Task" or "Search" functions are visual only.
-
-## 📂 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/AndreyMarqz/admin-dashboard.git](https://github.com/AndreyMarqz/admin-dashboard.git)
